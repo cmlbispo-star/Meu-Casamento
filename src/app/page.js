@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 const convidadosIniciais = [
   { id: 1, nome: "Chay", genero: "feminino", acompanhantes: [] },
   { id: 50, nome: "TESTE", genero: "feminino", acompanhantes: [] },
-  { id: 51, nome: "TESTE1", genero: "feminino", [
+  { id: 51, nome: "TESTE1", genero: "feminino", acompanhantes: [
     { nome: "Seu Marido Antonio", genero: "masculino" },
     { nome: "Sua filha Lu", genero: "feminino" },
     { nome: "Seu/sua acompanhante", genero: "indefinido" }
