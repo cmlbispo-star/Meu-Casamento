@@ -145,7 +145,7 @@ export default function ConfirmacaoPresenca() {
         principal: "sim",
         nomeCompleto: nomeCompleto,
         acompanhantes: convidados.find(c => c.id === id).acompanhantes.map((acomp, index) => ({
-          nome: acomp,
+          nome: acomp.nome,
           nomeCompleto: nomesCompletoAcomp[index] || null,
           status: "Confirmado"
         })),
@@ -160,7 +160,7 @@ export default function ConfirmacaoPresenca() {
   const recusarPresenca = (id, acompanhanteIndex = null) => {
     setRespostas((prev) => {
       if (acompanhanteIndex !== null) {
-        const novosAcomps = prev[id]?.acompanhantes || convidados.find(c => c.id === id).acompanhantes.map(nome => ({ nome, nomeCompleto: null, status: "Pendente" }));
+        const novosAcomps = prev[id]?.acompanhantes || convidados.find(c => c.id === id).acompanhantes.map(acomp => ({ nome: acomp.nome, nomeCompleto: null, status: "Pendente" }));
         novosAcomps[acompanhanteIndex] = {
           ...novosAcomps[acompanhanteIndex],
           status: "Não irá",
@@ -202,7 +202,7 @@ export default function ConfirmacaoPresenca() {
                   <p className="font-semibold mb-2">Acompanhantes:</p>
                   {convidado.acompanhantes.map((acomp, idx) => (
                     <div key={idx} className="flex gap-2 mb-1">
-                      <span>{acomp}</span>
+                      <span>{acomp.nome}</span>
                       <Button variant="outline" size="sm" onClick={() => recusarPresenca(convidado.id, idx)}>Não irá</Button>
                     </div>
                   ))}
@@ -236,7 +236,7 @@ export default function ConfirmacaoPresenca() {
               <input
                 key={idx}
                 type="text"
-                placeholder={`Nome completo do acompanhante ${acomp}`}
+                placeholder={`Nome completo do acompanhante ${acomp.nome}`}
                 value={nomesCompletoAcomp[idx] || ""}
                 onChange={(e) => {
                   const novos = [...nomesCompletoAcomp];
