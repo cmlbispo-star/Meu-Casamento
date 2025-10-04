@@ -10,15 +10,13 @@ const convidadosIniciais = [
   { id: 51, nome: "TESTE1", genero: "feminino", acompanhantes: [
     { nome: "Seu Marido Antonio", genero: "masculino" },
     { nome: "Sua filha Lu", genero: "feminino" },
-    { nome: "Seu/sua acompanhante", genero: "indefinido" }
-  ]},
+    { nome: "Seu/sua acompanhante", genero: "indefinido" }  ]},
   { id: 2, nome: "Wilson", genero: "masculino", acompanhantes: [{ nome: "Sua Digníssima esposa Camila", genero: "feminino" }] },
   { id: 3, nome: "Bia", genero: "feminino", acompanhantes: [] },
   { id: 4, nome: "Tia Laura", genero: "feminino", acompanhantes: [
     { nome: "Seu Marido Antonio", genero: "masculino" },
     { nome: "Seu filho João Lucas", genero: "masculino" },
-    { nome: "Seu filho Felipe", genero: "masculino" }
-  ]},
+    { nome: "Seu filho Felipe", genero: "masculino" }  ]},
   { id: 5, nome: "Evellyn", genero: "feminino", acompanhantes: [] },
   { id: 6, nome: "Cumpadre Dan", genero: "masculino", acompanhantes: [{ nome: "A Tia Lau", genero: "feminino" }] },
   { id: 7, nome: "Biumboo", genero: "feminino", acompanhantes: [] },
@@ -29,106 +27,81 @@ const convidadosIniciais = [
   { id: 12, nome: "Betoo", genero: "masculino", acompanhantes: [] },
   { id: 13, nome: "Jam", genero: "feminino", acompanhantes: [
     { nome: "Larissa", genero: "feminino" },
-    { nome: "Lavínia", genero: "feminino" }
-  ]},
+    { nome: "Lavínia", genero: "feminino" }  ]},
   { id: 14, nome: "Nick", genero: "feminino", acompanhantes: [
     { nome: "Seu marido Joel", genero: "masculino" },
     { nome: "Seu filho Miguel", genero: "masculino" },
-    { nome: "Sua filha Isabella", genero: "feminino" }
-  ]},
+    { nome: "Sua filha Isabella", genero: "feminino" }  ]},
   { id: 15, nome: "Tia Nelma", genero: "feminino", acompanhantes: [{ nome: "Tio Vavado", genero: "masculino" }] },
   { id: 49, nome: "Cumpadre Robson", genero: "masculino", acompanhantes: [] },
   { id: 16, nome: "Manessa", genero: "feminino", acompanhantes: [] },
   { id: 17, nome: "André", genero: "masculino", acompanhantes: [
     { nome: "Sua Esposa Liliam", genero: "feminino" },
     { nome: "Sua Filha Isadora", genero: "feminino" },
-    { nome: "Seu Filho Felipe", genero: "masculino" }
-  ]},
+    { nome: "Seu Filho Felipe", genero: "masculino" }  ]},
   { id: 18, nome: "Bia", genero: "feminino", acompanhantes: [
-    { nome: "Seu Namorado Luiz", genero: "masculino" }
-  ]},
+    { nome: "Seu Namorado Luiz", genero: "masculino" }  ]},
   { id: 19, nome: "Cris", genero: "feminino", acompanhantes: [] },
   { id: 20, nome: "Davi", genero: "masculino", acompanhantes: [
     { nome: "Esposa Davi", genero: "feminino" },
     { nome: "Seu Filho", genero: "masculino" },
     { nome: "Seu Filho", genero: "masculino" },
-    { nome: "Seu Filho", genero: "masculino" }
-  ]},
+    { nome: "Seu Filho", genero: "masculino" }  ]},
   { id: 21, nome: "Dennis", genero: "masculino", acompanhantes: [
-    { nome: "Sua Esposa Amanda", genero: "feminino" }
-  ]},
+    { nome: "Sua Esposa Amanda", genero: "feminino" }  ]},
   { id: 22, nome: "Denise", genero: "feminino", acompanhantes: [] },
   { id: 23, nome: "Ingrid", genero: "feminino", acompanhantes: [] },
   { id: 24, nome: "Júnior", genero: "masculino", acompanhantes: [
-    { nome: "Sua esposa Dona Celina", genero: "feminino" }
-  ]},
+    { nome: "Sua esposa Dona Celina", genero: "feminino" }  ]},
   { id: 25, nome: "Júlio", genero: "masculino", acompanhantes: [
-    { nome: "Sua Namorada Lígia", genero: "feminino" }
-  ]},
+    { nome: "Sua Namorada Lígia", genero: "feminino" }  ]},
   { id: 26, nome: "Juliano", genero: "masculino", acompanhantes: [] },
   { id: 27, nome: "Sérgio", genero: "masculino", acompanhantes: [] },
   { id: 28, nome: "Ketelyn", genero: "feminino", acompanhantes: [
-    { nome: "Seu Marido Lucas", genero: "masculino" }
-  ]},
+    { nome: "Seu Marido Lucas", genero: "masculino" }  ]},
   { id: 29, nome: "Denilson", genero: "masculino", acompanhantes: [
     { nome: "Sua Esposa Franciele", genero: "feminino" },
     { nome: "Sua Filha Gabi", genero: "feminino" },
-    { nome: "Sua Mãe Belinha", genero: "feminino" }
-  ]},
+    { nome: "Sua Mãe Belinha", genero: "feminino" }  ]},
   { id: 30, nome: "Isa", genero: "feminino", acompanhantes: [
     { nome: "Seu Marido Beto", genero: "masculino" },
     { nome: "Sua Filha Luiza", genero: "feminino" },
-    { nome: "A Vó Maria", genero: "feminino" }
-  ]},
+    { nome: "A Vó Maria", genero: "feminino" }  ]},
   { id: 31, nome: "Virgínia", genero: "feminino", acompanhantes: [
     { nome: "Seu Marido Valmir", genero: "masculino" },
-    { nome: "Seu Filho Vinícius", genero: "masculino" }
-  ]},
+    { nome: "Seu Filho Vinícius", genero: "masculino" }  ]},
   { id: 32, nome: "William", genero: "masculino", acompanhantes: [
     { nome: "Sua Esposa Marilene", genero: "feminino" },
-    { nome: "Seu Filho Kauã", genero: "masculino" }
-  ]},
+    { nome: "Seu Filho Kauã", genero: "masculino" }  ]},
   { id: 33, nome: "Gô", genero: "feminino", acompanhantes: [
-    { nome: "Seu Namorado Lucas", genero: "masculino" }
-  ]},
+    { nome: "Seu Namorado Lucas", genero: "masculino" }  ]},
   { id: 34, nome: "Lis", genero: "feminino", acompanhantes: [
-    { nome: "Seu Marido Evandro", genero: "masculino" }
-  ]},
+    { nome: "Seu Marido Evandro", genero: "masculino" }  ]},
   { id: 35, nome: "Steh", genero: "feminino", acompanhantes: [
-    { nome: "Seu Namorado Matheus", genero: "masculino" }
-  ]},
+    { nome: "Seu Namorado Matheus", genero: "masculino" }  ]},
   { id: 36, nome: "Thabs", genero: "feminino", acompanhantes: [] },
   { id: 37, nome: "Tia Delmira", genero: "feminino", acompanhantes: [] },
   { id: 38, nome: "Itamar", genero: "masculino", acompanhantes: [
-    { nome: "Sua namorada", genero: "feminino" }
-  ]},
+    { nome: "Sua namorada", genero: "feminino" }  ]},
   { id: 39, nome: "Tia Lene", genero: "feminino", acompanhantes: [
-    { nome: "Seu/sua acompanhante", genero: "indefinido" }
-  ]},
+    { nome: "Seu/sua acompanhante", genero: "indefinido" }  ]},
   { id: 40, nome: "Branco", genero: "masculino", acompanhantes: [] },
   { id: 41, nome: "Emerson", genero: "masculino", acompanhantes: [
-    { nome: "Sua esposa Nathália", genero: "feminino" }
-  ]},
+    { nome: "Sua esposa Nathália", genero: "feminino" }  ]},
   { id: 42, nome: "Ju", genero: "masculino", acompanhantes: [
     { nome: "Sua Esposa", genero: "feminino" },
-    { nome: "Sua filha", genero: "feminino" }
-  ]},
+    { nome: "Sua filha", genero: "feminino" }  ]},
   { id: 43, nome: "Rafa", genero: "masculino", acompanhantes: [
     { nome: "Sua mãe Lu", genero: "feminino" },
-    { nome: "Seu pai Renato", genero: "masculino" }
-  ]},
+    { nome: "Seu pai Renato", genero: "masculino" }  ]},
   { id: 44, nome: "Sabrina", genero: "feminino", acompanhantes: [
-    { nome: "Seu Marido", genero: "masculino" }
-  ]},
+    { nome: "Seu Marido", genero: "masculino" }  ]},
   { id: 45, nome: "Aninha", genero: "feminino", acompanhantes: [
-    { nome: "Seu Namorado", genero: "masculino" }
-  ]},
+    { nome: "Seu Namorado", genero: "masculino" }  ]},
   { id: 46, nome: "Karen", genero: "feminino", acompanhantes: [
-    { nome: "Seu/sua acompanhante", genero: "indefinido" }
-  ]},
+    { nome: "Seu/sua acompanhante", genero: "indefinido" }  ]},
   { id: 47, nome: "Eyme", genero: "feminino", acompanhantes: [] },
-  { id: 48, nome: "Jocenir", genero: "feminino", acompanhantes: [] }
-];
+  { id: 48, nome: "Jocenir", genero: "feminino", acompanhantes: [] }];
 
 export default function ConfirmacaoPresenca() {
   const [convidados, setConvidados] = useState(convidadosIniciais);
